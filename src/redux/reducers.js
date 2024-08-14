@@ -1,7 +1,8 @@
-import { ADD_COMMENT, EDIT_COMMENT, DELETE_COMMENT, ADD_REPLY, DELETE_REPLY } from './actions';
+import { ADD_COMMENT, EDIT_COMMENT, DELETE_COMMENT, ADD_REPLY, DELETE_REPLY ,SET_SORT_ORDER} from './actions';
 
 const initialState = {
-  comments: []
+  comments: [],
+  sortOrder: 'desc'
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -42,6 +43,11 @@ const rootReducer = (state = initialState, action) => {
             ? { ...comment, replies: comment.replies.filter(reply => reply.id !== action.payload.replyId) }
             : comment
         )
+      };
+    case SET_SORT_ORDER:
+      return {
+        ...state,
+        sortOrder: action.payload
       };
     default:
       return state;
