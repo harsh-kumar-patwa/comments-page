@@ -4,7 +4,11 @@ This project is a dynamic comments section built with React and Redux. It allows
 
 ## Demo
 
-[Click here to watch the demo video](https://www.loom.com/share/001f6e0b95704de1a2754087669e12db?sid=f2749ab9-a75f-4b9d-bb29-c62c54e0a882)
+
+
+https://github.com/user-attachments/assets/c960b1c8-c91e-47cf-b4c9-e3dde4e997e8
+
+
 
 ## Features
 
