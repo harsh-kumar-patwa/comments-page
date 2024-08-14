@@ -83,6 +83,7 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     position: relative;
+    padding-right: 30px;
   }
   
   .comment-header {
@@ -127,18 +128,23 @@ body {
   
   .delete-btn {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    background: none;
-    border: none;
+    top: 50%;
+    right: -12px;
+    transform: translateY(-50%);
+    background-color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
     padding: 5px;
     color: #dc3545;
     transition: color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .delete-btn:hover {
-    color: #c82333;
+    color: white;
+    background-color: #c82333;
   }
   
   .delete-btn svg {
