@@ -2,7 +2,7 @@
 
 This project is a dynamic comments section built with React and Redux. It allows users to add comments, reply to existing comments, edit their comments, and delete comments. The project uses local storage to persist data, ensuring that comments remain even after page refresh.
 
-## Demo
+## Demo (Before some updates)
 
 
 
